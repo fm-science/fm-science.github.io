@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Design Deep Learning with Principles: From Theory to Applications</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #0779e4 3px solid; }
+        header h1 { text-align: center; margin: 0; }
+        nav { background: #555; padding: 5px 0; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; }
+        article { padding: 20px; }
+        .speaker { margin-bottom: 20px; }
+        .speaker h2 { color: #333; }
+        .agenda { background: #f4f4f4; padding: 10px; margin-top: 20px; }
+        footer { background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Design Deep Learning with Principles: From Theory to Applications</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#topics">Topics</a> |
+        <a href="#speakers">Speakers</a> |
+        <a href="#call">Call for Papers</a> |
+        <a href="#schedule">Schedule</a> |
+        <a href="#organizers">Organizers</a>
+    </nav>
+
+    <div class="container">
+        <article>
+            <section id="home" class="Description">
+                <h2>Description</h2>
+
+                <p>Deep learning (DL) has significantly advanced artificial intelligence (AI) in the past decade. 
+                This workshop focuses on proactively using deep learning theory to design principled practices and applications, 
+                specifically aiming to unify and promote a clear research direction:</p>
+
+                <p><em>How to design principles using falsifiable predictions of the properties of deep learning systems?</em></p>
+
+                <p>Deep learning theory aims to explain neural networks (perfect memorization, extrapolating generalization, 
+                benefits of depth, etc.), with carefully crafted assumptions and conditions. 
+                However, current theories fall short of establishing sustainable and practical principles: 
+                1) Significant gaps between assumptions and practices, being unable to reliably describe the real world; 
+                2) Rapidly evolving AI paradigms (data-centric AI, foundation models, pre-training/fine-tuning, prompting, etc.) 
+                quickly redefine research focuses of theory works.</p>
+
+                <p>Consequently, an exclusive emphasis on post hoc explanations with assumptions not thoroughly validated 
+                    in practice will limit the broader impact of the theory. Instead, we propose to <strong>actively design deep learning with theory</strong>. This is because: 
+                1) Prevalent deep learning strategies have well-known limitations and challenges (hunger for data, intricate networks, heavy training, black-box models, etc.). 
+                2) Contemporary deep learning practices largely remain an experimental art, necessitating considerable empirics and training costs at every design stage, including:</p>
+
+                <ul>
+                    <li>Data: acquisition, distillation (or condensation), augmentations.</li>
+                    <li>Model: DNN architectures, model scaling-up, model compression.</li>
+                    <li>Optimization: hyperparameters, landscape, training curves.</li>
+                    <li>Generalization: out-of-distribution generalization, zero/few-shot learning.</li>
+                </ul>
+
+                <p>These limitations become especially prominent with data or label scarcity, undefined inductive biases, and low signal-to-noise ratios (e.g. AI-for-Science). 
+                Moreover, AI safety (robustness, interpretability, trustworthiness, etc.) is increasingly critical. Due to the complexity of AI behaviors, 
+                heuristics and empirics are insufficient to predict and manage safety concerns. 
+                Therefore, there is an unprecedented urgent need for theoretical frameworks that are capable of predicting safety properties of AI systems,
+                and making inherently safer and reliable designs.</p> 
+
+                <p>This workshop, "<strong>D</strong>esign D<strong>e</strong>ep <strong>L</strong>earning with Principles: from <strong>T</strong>heory to <strong>A</strong>pplications" 
+                    (<strong>DeLTA</strong>), will center around the abovementioned challenges. 
+                    We advocate that deep learning theory should go beyond explaining practice, and proactively engage in <strong>predicting</strong> and <strong>designing</strong> deep learning applications. 
+                    We aim to bring together experts from deep learning theory and applications, spur discussions, and foster collaborations on two broad and transformative questions:</p>
+                
+                <p><strong>Q1:</strong> How to use current deep learning theory to predict and design deep learning systems?</p>
+                <p><strong>Q2:</strong> How to develop a practical deep learning theory that is closely connected with applications?</p>
+
+            </section>
+
+            <section id="topics" class="Topics">
+                <h2>Topics</h2>
+                <p>Theory topics that can help predict and design deep learning (include but not limited to):</p>
+                <ul>
+                    <li>Approximation of deep networks</li>
+                    <li>Initialization (e.g. Fixup), training dynamics, and feature learning of deep networks</li>
+                    <li>Generalization of deep networks</li>
+                </ul>
+
+                <p>Applications that can be designed by deep learning theory (include but not limited to):</p>
+                <ul>
+                    <li>Data-centric AI (data collection, cleaning, augmentation)</li>
+                    <li>NLP (LLM, in-context learning, reasoning)</li>
+                    <li>Architectures (CNN, transformers, mixture-of-experts, neural scaling law)</li>
+                    <li>Reinforcement Learning (model-based RL, model-free RL, world model)</li>
+                    <li>Representation Learning (pretraining, self-supervised learning, neural collapse)</li>
+                    <li>Generative Modeling (VAE, GAN, diffusion, flow-based model)</li>
+                    <li>AI-for-Science (scientific computing, chemistry, materials, biology)</li>
+                    <li>AI Safety (robustness, interpretability, trustworthiness, privacy)</li>
+                </ul>
+                
+            </section>
+
+            
+
+            <section id="speakers" class="Speakers">
+                
+                <h2>Speakers (A-Z by Last Name) (last updated: 2/28/2024)</h2>  
+<!--                 <div class="Speaker">
+                    <h3><a href="https://sites.google.com/view/yasamanbahri/home" target="_blank">Yasaman Bahri</a></h3>
+                    <p>Research Scientist</p>
+                    <p>Google DeepMind</p>
+                </div> -->
+
+<!--                 <div class="Speaker">
+                    <h3><a href="https://papail.io/" target="_blank">Dimitris Papailiopoulos</a></h3>
+                    <p>Associate Professor</p>
+                    <p>University of Wisconsin-Madison</p>
+                </div> -->
+
+                <div class="Speaker">
+                    <h3><a href="https://kangwooklee.com/" target="_blank">Kangwook Lee [confirmed]</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>University of Wisconsin-Madison</p>
+                </div>
+
+                <div class="Speaker">
+                    <h3><a href="https://cseweb.ucsd.edu/~yaq007/" target="_blank">Yao Qin [confirmed]</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>University of California, Santa Barbara</p>
+                </div>
+
+                <div class="Speaker">
+                    <h3><a href="https://qingqu.engin.umich.edu/" target="_blank">Qing Qu [confirmed]</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>University of Michigan</p>
+                </div>
+
+<!--                 <div class="Speaker">
+                    <h3><a href="https://thegregyang.com/" target="_blank">Greg Yang</a></h3>
+                    <p>Mathematician</p>
+                    <p>xAI</p>
+                </div> -->
+
+                <div class="Speaker">
+                    <h3><a href="http://danroy.org/" target="_blank">Daniel Roy [confirmed]</a></h3>
+                    <p>Research Director, CIFAR Canada AI Chair, Founding Faculty, Vector Institute</p>
+                    <p>Associate Professor, University of Toronto</p>
+                </div>
+
+                <div class="Speaker">
+                    <h3><a href="https://sites.google.com/view/jsulam/" target="_blank">Jeremias Sulam [confirmed]</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>Johns Hopkins University</p>
+                </div>
+
+                <div class="Speaker">
+                    <h3><a href="https://yuandong-tian.com/" target="_blank">Yuandong Tian [confirmed]</a></h3>
+                    <p>Research Scientist and Senior Manager</p>
+                    <p>Meta AI (FAIR)</p>
+                </div>
+
+                <div class="Speaker">
+                    <h3><a href="https://sites.google.com/site/yangyaoqingcmu/" target="_blank">Yaoqing Yang [confirmed]</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>Dartmouth University</p>
+                </div>
+            </section>
+
+            <section id="call" class="location">
+                <h2>Call for Papers</h2>
+
+                <div class="Important Dates">
+                    <h3>Important Dates</h3>
+                    <p>Submission Deadline: May 28th, 2024 (11:59 pm AoE)</p>
+                    <p>Acceptance Notification: June 18th, 2024</p>
+                    <p>Workshop Date: July 26th or July 27th, 2024</p>
+                </div>
+            </section>
+
+            <section id="schedule">
+                <h2>Schedule</h2>
+                <p>All times are in Vienna Time (GMT+1).</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vienna Time (GMT+1)</th>
+                            <th>Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8:20-8:30</td>
+                            <td>Opening Remarks</td>
+                        </tr>
+                        <tr>
+                            <td>8:30-9:10</td>
+                            <td>Invited Talk 1</td>
+                        </tr>
+                        <tr>
+                            <td>9:10-9:50</td>
+                            <td>Invited Talk 2</td>
+                        </tr>
+                        <tr>
+                            <td>9:50-10:30</td>
+                            <td>Invited Talk 3</td>
+                        </tr>
+                         <tr>
+                            <td>10:30-11:00</td>
+                            <td>Contributed Talks</td>
+                        </tr>
+                        <tr>
+                            <td>11:00-12:00</td>
+                            <td>Poster Session</td>
+                        </tr>
+                       
+                        <tr>
+                            <td>12:00-13:30</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <td>13:30-14:10</td>
+                            <td>Invited Talk 4</td>
+                        </tr>
+                        <tr>
+                            <td>14:10-14:50</td>
+                            <td>Invited Talk 5</td>
+                        </tr>
+                        <tr>
+                            <td>14:50-15:20</td>
+                            <td>Contributed Talks</td>
+                        </tr>
+                        <tr>
+                            <td>15:20-16:20</td>
+                            <td>Poster/Break</td>
+                        </tr>
+                        <tr>
+                            <td>16:20-17:00</td>
+                            <td>Invited Talk 6</td>
+                        </tr>
+                        <tr>
+                            <td>17:00-17:40</td>
+                            <td>Invited Talk 7</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                </section>
+
+
+            <section id="organizers" class="Organizers">
+                <h2>Organizers </h2>
+                <div class="Organizers">
+                    <h3><a href="https://chenwydj.github.io/" target="_blank">Wuyang Chen</a></h3>
+                    <p>Incoming tenure-track Assistant Professor</p>
+                    <p>Simon Fraser University</p>
+                </div>
+                
+                <div class="Organizers">
+                    <h3><a href="https://weihuang05.github.io/" target="_blank">Wei Huang</a></h3>
+                    <p>Research Scientist</p>
+                    <p>RIKEN AIP</p>
+                </div>
+
+                <div class="Organizers">
+                    <h3><a href="https://cecilialeiqi.github.io/" target="_blank">Qi Lei</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>New York University</p>
+                </div>
+
+                <div class="Organizers">
+                    <h3><a href="https://gkdz.org/" target="_blank">Gintare Karolina Dziugaite</a></h3>
+                    <p>Senior Research Scientist, Google Brain</p>
+                    <p>Adjunct Professor, McGill University</p>
+                </div>
+
+<!--                 <div class="Organizers">
+                    <h3><a href="https://boris-hanin.github.io/" target="_blank">Boris Hanin</a></h3>
+                    <p>Assistant Professor</p>
+                    <p>Princeton University</p>
+                </div> -->
+
+<!--                 <div class="Organizers">
+                    <h3><a href="https://vita-group.github.io/" target="_blank">Atlas Wang</a></h3>
+                    <p>Associate Professor</p>
+                    <p>The University of Texas at Austin</p>
+                </div> -->
+                
+                <div class="Organizers">
+                    <h3><a href="https://ibis.t.u-tokyo.ac.jp/suzuki/" target="_blank">Taiji Suzuki</a></h3>
+                    <p>Associate Professor</p>
+                    <p>University of Tokyo & RIKEN AIP</p>
+                </div>
+
+                <div class="Organizers">
+                    <h3><a href="https://www.stat.berkeley.edu/~mmahoney/" target="_blank">Michael Mahoney</a></h3>
+                    <p>Professor</p>
+                    <p>University of California at Berkeley</p>
+                </div>
+
+            </section>
+
+
+            
+        </article>
+    </div>
+
+    <footer>
+        <p>Contact us at <a style="color:white" href="mailto:delta.workshop.ml@gmail.com">delta.workshop.ml@gmail.com</a></p>
+    </footer>
+</body>
+</html>
