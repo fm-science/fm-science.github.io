@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Design Deep Learning with Principles: From Theory to Applications</title>
+    <title>Foundation Models for Science: Progress, Opportunities, and Challenges</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; }
         .container { width: 80%; margin: auto; overflow: hidden; }
@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <h1>Design Deep Learning with Principles: From Theory to Applications</h1>
+        <h1>Foundation Models for Science: Progress, Opportunities, and Challenges</h1>
     </header>
 
     <nav>
@@ -38,212 +38,142 @@
             <section id="home" class="Description">
                 <h2>Description</h2>
 
-                <p>Deep learning (DL) has significantly advanced artificial intelligence (AI) in the past decade. 
-                This workshop focuses on proactively using deep learning theory to design principled practices and applications, 
-                specifically aiming to unify and promote a clear research direction:</p>
+                <p>The integration of artificial intelligence (AI) and machine learning (ML) into the realm of science represents a pivotal shift in the traditional methods of scientific discovery. For centuries, the systematic and logical exploration of the natural world has followed a consistent methodology. However, the emergence of AI and ML technologies promises a profound transformation in how fundamental scientific discoveries are made today. This joint effort is crucial for enhancing interdisciplinary dialogue, stimulating innovative problem-solving approaches, and ultimately, enriching the scientific community’s capacity to tackle some of the most pressing and intricate problems in modern science.</p>
 
-                <p><em>How to design principles using falsifiable predictions of the properties of deep learning systems?</em></p>
+               <!-- <p><em>How to design principles using falsifiable predictions of the properties of deep learning systems?</em></p> -->
 
-                <p>Deep learning theory aims to explain neural networks (perfect memorization, extrapolating generalization, 
-                benefits of depth, etc.), with carefully crafted assumptions and conditions. 
-                However, current theories fall short of establishing sustainable and practical principles: 
-                1) Significant gaps between assumptions and practices, being unable to reliably describe the real world; 
-                2) Rapidly evolving AI paradigms (data-centric AI, foundation models, pre-training/fine-tuning, prompting, etc.) 
-                quickly redefine research focuses of theory works.</p>
+                <p>Meanwhile, foundation models, trained on vast and diverse datasets, have significantly altered the landscape of computer vision and natural language processing by demonstrating robust adaptability across a multitude of tasks. These models, including prominent examples like GPT-3 for language and CLIP for image-text processing, have revolutionized their respective fields by providing a versatile, pre-trained base that can be fine-tuned for various applications. By leveraging the extensive knowledge encoded in foundation models, researchers are addressing critical challenges such as long-term planning and multi-modal reasoning, which are essential for complex real-world applications like robotics and dialogue systems.</p>
 
-                <p>Consequently, an exclusive emphasis on post hoc explanations with assumptions not thoroughly validated 
-                    in practice will limit the broader impact of the theory. Instead, we propose to <strong>actively design deep learning with theory</strong>. This is because: 
-                1) Prevalent deep learning strategies have well-known limitations and challenges (hunger for data, intricate networks, heavy training, black-box models, etc.). 
-                2) Contemporary deep learning practices largely remain an experimental art, necessitating considerable empirics and training costs at every design stage, including:</p>
+                <!-- <p><strong>actively design deep learning with theory</strong></p> -->
 
-                <ul>
-                    <li>Data: acquisition, distillation (or condensation), augmentations.</li>
-                    <li>Model: DNN architectures, model scaling-up, model compression.</li>
-                    <li>Optimization: hyperparameters, landscape, training curves.</li>
-                    <li>Generalization: out-of-distribution generalization, zero/few-shot learning.</li>
-                </ul>
+                <p>We see an opportunity to collaboratively pursue the integration of AI-for-Science and foundation models, which is emerging as a transformative force in scientific domains. Leveraging foundation models, trained on extensive datasets and capable of multimodal processing, offers a unique opportunity to solve scientific problems and serve as a robust base for further domain-specific adaptations. Thus, the synergy between AI-for-Science and foundation models is poised to radically improve how we model complex phenomena, making it an essential area of investment for future scientific advancements. In contrast with small-scale AI-for-science models or foundation models for traditional domains of computer vision or natural language processing, we see both opportunities and unique challenges in advancing and solving scientific problems through approaches of building and applying foundation models.</p>
 
-                <p>These limitations become especially prominent with data or label scarcity, undefined inductive biases, and low signal-to-noise ratios (e.g. AI-for-Science). 
-                Moreover, AI safety (robustness, interpretability, trustworthiness, etc.) is increasingly critical. Due to the complexity of AI behaviors, 
-                heuristics and empirics are insufficient to predict and manage safety concerns. 
-                Therefore, there is an unprecedented urgent need for theoretical frameworks that are capable of predicting safety properties of AI systems,
-                and making inherently safer and reliable designs.</p> 
 
-                <p>This workshop, "<strong>D</strong>esign D<strong>e</strong>ep <strong>L</strong>earning with Principles: from <strong>T</strong>heory to <strong>A</strong>pplications" 
-                    (<strong>DeLTA</strong>), will center around the abovementioned challenges. 
-                    We advocate that deep learning theory should go beyond explaining practice, and proactively engage in <strong>predicting</strong> and <strong>designing</strong> deep learning applications. 
-                    We aim to bring together experts from deep learning theory and applications, spur discussions, and foster collaborations on two broad and transformative questions:</p>
-                
-                <p><strong>Q1:</strong> How to use current deep learning theory to predict and design deep learning systems?</p>
-                <p><strong>Q2:</strong> How to develop a practical deep learning theory that is closely connected with applications?</p>
 
             </section>
 
             <section id="topics" class="Topics">
                 <h2>Topics</h2>
-                <p>Theory topics that can help predict and design deep learning (include but not limited to):</p>
-                <ul>
-                    <li>Approximation of deep networks</li>
-                    <li>Initialization (e.g. Fixup), training dynamics, and feature learning of deep networks</li>
-                    <li>Generalization of deep networks</li>
-                </ul>
+                <p>In this workshop, we aim to bring together experts from foundation models and scientific problems, spur discussions, and foster collaborations on broad and transformative questions and challenges (include but not limited to):</p>
 
-                <p>Applications that can be designed by deep learning theory (include but not limited to):</p>
-                <ul>
-                    <li>Data-centric AI (data collection, cleaning, augmentation)</li>
-                    <li>NLP (LLM, in-context learning, reasoning)</li>
-                    <li>Architectures (CNN, transformers, mixture-of-experts, neural scaling law)</li>
-                    <li>Reinforcement Learning (model-based RL, model-free RL, world model)</li>
-                    <li>Representation Learning (pretraining, self-supervised learning, neural collapse)</li>
-                    <li>Generative Modeling (VAE, GAN, diffusion, flow-based model)</li>
-                    <li>AI-for-Science (scientific computing, chemistry, materials, biology)</li>
-                    <li>AI Safety (robustness, interpretability, trustworthiness, privacy)</li>
-                </ul>
-                
+                <ol>
+                    <li>
+                        <strong>Progress.</strong>
+                        <ul>
+                            <li>Scalability: Is the scaling law and training strategy of scientific foundation models different from counterparts of NLP and vision?</li>
+                            <li>Reusability: Can scientific foundation models be trained for once and adopted in different scenarios?</li>
+                            <li>Performance: Can scientific foundation models consistently outperform domain-specific models?</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Opportunities.</strong>
+                        <ul>
+                            <li>How to make foundation models understand multi-modal scientific inputs and capable of multiple scientific problems?</li>
+                            <li>How to accelerate scientific discovery and collection/assimilation of scientific data with foundation models?</li>
+                            <li>How to make foundation model compatible and enable integration of classic scientific tools?</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Challenges.</strong>
+                        <ul>
+                            <li>How to diagnose failure cases or modes that scientific foundation models cannot perform well?</li>
+                            <li>How to align scientific foundation models with scientific facts without hallucination?</li>
+                            <li>How to quantify the scientific uncertainty of foundation models?</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p><strong>Scientific Domains.</strong> We encourage paper submission from different scientific domains, include but not limited to: Quantum Mechanics (e.g. nuclear fusion), Small Molecules, Biomedicine (e.g. protein, biosequences, virtual screening), Materials Science (e.g. battery, chemical synthesis), Computational Science (e.g. PDEs, forecasting), etc.</p> 
+
             </section>
 
             
 
             <section id="speakers" class="Speakers">
                 
-                <h2>Speakers (A-Z by Last Name) (last updated: 2/28/2024)</h2>  
-<!--                 <div class="Speaker">
-                    <h3><a href="https://sites.google.com/view/yasamanbahri/home" target="_blank">Yasaman Bahri</a></h3>
-                    <p>Research Scientist</p>
-                    <p>Google DeepMind</p>
-                </div> -->
-
-<!--                 <div class="Speaker">
-                    <h3><a href="https://papail.io/" target="_blank">Dimitris Papailiopoulos</a></h3>
-                    <p>Associate Professor</p>
-                    <p>University of Wisconsin-Madison</p>
-                </div> -->
+                <h2>Speakers (A-Z by Last Name) (last updated: 5/20/2024)</h2>  
 
                 <div class="Speaker">
-                    <h3><a href="https://kangwooklee.com/" target="_blank">Kangwook Lee [confirmed]</a></h3>
+                    <h3><a href="https://xxx.com/" target="_blank">XXX [confirmed]</a></h3>
                     <p>Assistant Professor</p>
-                    <p>University of Wisconsin-Madison</p>
+                    <p>University of XXX</p>
                 </div>
 
-                <div class="Speaker">
-                    <h3><a href="https://cseweb.ucsd.edu/~yaq007/" target="_blank">Yao Qin [confirmed]</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>University of California, Santa Barbara</p>
-                </div>
-
-                <div class="Speaker">
-                    <h3><a href="https://qingqu.engin.umich.edu/" target="_blank">Qing Qu [confirmed]</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>University of Michigan</p>
-                </div>
-
-<!--                 <div class="Speaker">
-                    <h3><a href="https://thegregyang.com/" target="_blank">Greg Yang</a></h3>
-                    <p>Mathematician</p>
-                    <p>xAI</p>
-                </div> -->
-
-                <div class="Speaker">
-                    <h3><a href="http://danroy.org/" target="_blank">Daniel Roy [confirmed]</a></h3>
-                    <p>Research Director, CIFAR Canada AI Chair, Founding Faculty, Vector Institute</p>
-                    <p>Associate Professor, University of Toronto</p>
-                </div>
-
-                <div class="Speaker">
-                    <h3><a href="https://sites.google.com/view/jsulam/" target="_blank">Jeremias Sulam [confirmed]</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>Johns Hopkins University</p>
-                </div>
-
-                <div class="Speaker">
-                    <h3><a href="https://yuandong-tian.com/" target="_blank">Yuandong Tian [confirmed]</a></h3>
-                    <p>Research Scientist and Senior Manager</p>
-                    <p>Meta AI (FAIR)</p>
-                </div>
-
-                <div class="Speaker">
-                    <h3><a href="https://sites.google.com/site/yangyaoqingcmu/" target="_blank">Yaoqing Yang [confirmed]</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>Dartmouth University</p>
-                </div>
             </section>
 
             <section id="call" class="location">
                 <h2>Call for Papers</h2>
 
                 <div class="Important Dates">
-                    <h3>Important Dates</h3>
-                    <p>Submission Deadline: May 28th, 2024 (11:59 pm AoE)</p>
-                    <p>Acceptance Notification: June 18th, 2024</p>
-                    <p>Workshop Date: July 26th or July 27th, 2024</p>
+                    <h3>Tentative important dates (anywhere on earth):</h3>
+                    <p>Abstract Submission Deadline: August 27, 2024</p>
+                    <p>Paper Submission Deadline: August 30, 2024</p>
+                    <p>Review Bidding Period: August 30 - September 2, 2024</p>
+                    <p>Reviewer Deadline: September 27, 2024</p>
+                    <p>Acceptance/Rejection Notification Date: September 30, 2024</p>
+                    <p>Workshop Date: December 14 or 15, 2024</p>
                 </div>
             </section>
 
             <section id="schedule">
                 <h2>Schedule</h2>
-                <p>All times are in Vienna Time (GMT+1).</p>
+                <p>All times are in Vancouver Time (GMT-7).</p>
                 <table>
                     <thead>
                         <tr>
-                            <th>Vienna Time (GMT+1)</th>
+                            <th>Vancouver Time (GMT-7)</th>
                             <th>Event</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>8:20-8:30</td>
+                            <td>9:00-9:10</td>
                             <td>Opening Remarks</td>
                         </tr>
                         <tr>
-                            <td>8:30-9:10</td>
+                            <td>9:10-9:50</td>
                             <td>Invited Talk 1</td>
                         </tr>
                         <tr>
-                            <td>9:10-9:50</td>
+                            <td>9:55-10:35</td>
                             <td>Invited Talk 2</td>
                         </tr>
                         <tr>
-                            <td>9:50-10:30</td>
-                            <td>Invited Talk 3</td>
+                            <td>10:40-11:10</td>
+                            <td>Poster/Break</td>
                         </tr>
                          <tr>
-                            <td>10:30-11:00</td>
+                            <td>11:15-11:45</td>
                             <td>Contributed Talks</td>
                         </tr>
                         <tr>
-                            <td>11:00-12:00</td>
-                            <td>Poster Session</td>
-                        </tr>
-                       
-                        <tr>
-                            <td>12:00-13:30</td>
-                            <td>Lunch Break</td>
+                            <td>11:45-13:30</td>
+                            <td>Lunch</td>
                         </tr>
                         <tr>
                             <td>13:30-14:10</td>
+                            <td>Invited Talk 3</td>
+                        </tr>
+                        <tr>
+                            <td>14:15-14:55</td>
                             <td>Invited Talk 4</td>
                         </tr>
                         <tr>
-                            <td>14:10-14:50</td>
-                            <td>Invited Talk 5</td>
-                        </tr>
-                        <tr>
-                            <td>14:50-15:20</td>
-                            <td>Contributed Talks</td>
-                        </tr>
-                        <tr>
-                            <td>15:20-16:20</td>
+                            <td>15:00-15:30</td>
                             <td>Poster/Break</td>
+                        </tr>
+                        <tr>
+                            <td>15:35-16:15</td>
+                            <td>Invited Talk 5</td>
                         </tr>
                         <tr>
                             <td>16:20-17:00</td>
                             <td>Invited Talk 6</td>
                         </tr>
                         <tr>
-                            <td>17:00-17:40</td>
-                            <td>Invited Talk 7</td>
+                            <td>17:05-17:40</td>
+                            <td>Contributed Talks and Closing Remarks</td>
                         </tr>
-                        
                     </tbody>
                 </table>
                 </section>
@@ -253,44 +183,14 @@
                 <h2>Organizers </h2>
                 <div class="Organizers">
                     <h3><a href="https://chenwydj.github.io/" target="_blank">Wuyang Chen</a></h3>
-                    <p>Incoming tenure-track Assistant Professor</p>
+                    <p>Assistant Professor</p>
                     <p>Simon Fraser University</p>
                 </div>
                 
                 <div class="Organizers">
-                    <h3><a href="https://weihuang05.github.io/" target="_blank">Wei Huang</a></h3>
-                    <p>Research Scientist</p>
-                    <p>RIKEN AIP</p>
-                </div>
-
-                <div class="Organizers">
-                    <h3><a href="https://cecilialeiqi.github.io/" target="_blank">Qi Lei</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>New York University</p>
-                </div>
-
-                <div class="Organizers">
-                    <h3><a href="https://gkdz.org/" target="_blank">Gintare Karolina Dziugaite</a></h3>
-                    <p>Senior Research Scientist, Google Brain</p>
-                    <p>Adjunct Professor, McGill University</p>
-                </div>
-
-<!--                 <div class="Organizers">
-                    <h3><a href="https://boris-hanin.github.io/" target="_blank">Boris Hanin</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>Princeton University</p>
-                </div> -->
-
-<!--                 <div class="Organizers">
-                    <h3><a href="https://vita-group.github.io/" target="_blank">Atlas Wang</a></h3>
-                    <p>Associate Professor</p>
-                    <p>The University of Texas at Austin</p>
-                </div> -->
-                
-                <div class="Organizers">
-                    <h3><a href="https://ibis.t.u-tokyo.ac.jp/suzuki/" target="_blank">Taiji Suzuki</a></h3>
-                    <p>Associate Professor</p>
-                    <p>University of Tokyo & RIKEN AIP</p>
+                    <h3><a href="https://paulpuren.github.io/" target="_blank">Pu Ren</a></h3>
+                    <p>Postdoc Fellow</p>
+                    <p>Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
                 </div>
 
                 <div class="Organizers">
@@ -307,7 +207,7 @@
     </div>
 
     <footer>
-        <p>Contact us at <a style="color:white" href="mailto:delta.workshop.ml@gmail.com">delta.workshop.ml@gmail.com</a></p>
+        <p>Contact us at <a style="color:white" href="mailto:foundationmodelscience@gmail.com">foundationmodelscience@gmail.com</a></p>
     </footer>
 </body>
 </html>
