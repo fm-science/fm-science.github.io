@@ -5,76 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
     <title>Foundation Models for Science: Progress, Opportunities, and Challenges</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .container { width: 80%; margin: auto; overflow: hidden; }
-        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #0779e4 3px solid; }
-        header h1 { text-align: center; margin: 0; }
-        nav { background: #555; padding: 5px 0; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; }
-        article { padding: 20px; }
-        .speaker { margin-bottom: 20px; }
-        .speaker h2 { color: #333; }
-        .agenda { background: #f4f4f4; padding: 10px; margin-top: 20px; }
-        footer { background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
-    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
     <header>
         <h1>Foundation Models for Science: Progress, Opportunities, and Challenges</h1>
     </header>
 
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#topics">Topics</a> |
-        <a href="#speakers">Speakers</a> |
-        <a href="#call">Call for Papers</a> |
-        <a href="#schedule">Schedule</a> |
-        <a href="#organizers">Organizers</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- <a class="navbar-brand" href="#">Foundation Models for Science</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#call">Call for Papers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="container">
+    <div class="container mt-5">
         <article>
             <section id="home" class="Description">
                 <h2>Description</h2>
-
                 <p>The integration of artificial intelligence (AI) and machine learning (ML) into the realm of science represents a pivotal shift in the traditional methods of scientific discovery. For centuries, the systematic and logical exploration of the natural world has followed a consistent methodology. However, the emergence of AI and ML technologies promises a profound transformation in how fundamental scientific discoveries are made today. This joint effort is crucial for enhancing interdisciplinary dialogue, stimulating innovative problem-solving approaches, and ultimately, enriching the scientific community’s capacity to tackle some of the most pressing and intricate problems in modern science.</p>
-
-               <!-- <p><em>How to design principles using falsifiable predictions of the properties of deep learning systems?</em></p> -->
-
                 <p>Meanwhile, foundation models, trained on vast and diverse datasets, have significantly altered the landscape of computer vision and natural language processing by demonstrating robust adaptability across a multitude of tasks. These models, including prominent examples like GPT-3 for language and CLIP for image-text processing, have revolutionized their respective fields by providing a versatile, pre-trained base that can be fine-tuned for various applications. By leveraging the extensive knowledge encoded in foundation models, researchers are addressing critical challenges such as long-term planning and multi-modal reasoning, which are essential for complex real-world applications like robotics and dialogue systems.</p>
-
-                <!-- <p><strong>actively design deep learning with theory</strong></p> -->
-
                 <p>We see an opportunity to collaboratively pursue the integration of AI-for-Science and foundation models, which is emerging as a transformative force in scientific domains. Leveraging foundation models, trained on extensive datasets and capable of multimodal processing, offers a unique opportunity to solve scientific problems and serve as a robust base for further domain-specific adaptations. Thus, the synergy between AI-for-Science and foundation models is poised to radically improve how we model complex phenomena, making it an essential area of investment for future scientific advancements. In contrast with small-scale AI-for-science models or foundation models for traditional domains of computer vision or natural language processing, we see both opportunities and unique challenges in advancing and solving scientific problems through approaches of building and applying foundation models.</p>
-
-
-
             </section>
 
             <section id="topics" class="Topics">
                 <h2>Topics</h2>
                 <p>In this workshop, we aim to bring together experts from foundation models and scientific problems, spur discussions, and foster collaborations on broad and transformative questions and challenges (include but not limited to):</p>
-
                 <ol>
-                    <li>
-                        <strong>Progress.</strong>
+                    <li><strong>Progress.</strong>
                         <ul>
                             <li>Scalability: Is the scaling law and training strategy of scientific foundation models different from counterparts of NLP and vision?</li>
                             <li>Reusability: Can scientific foundation models be trained for once and adopted in different scenarios?</li>
                             <li>Performance: Can scientific foundation models consistently outperform domain-specific models?</li>
                         </ul>
                     </li>
-                    <li>
-                        <strong>Opportunities.</strong>
+                    <li><strong>Opportunities.</strong>
                         <ul>
                             <li>How to make foundation models understand multi-modal scientific inputs and capable of multiple scientific problems?</li>
                             <li>How to accelerate scientific discovery and collection/assimilation of scientific data with foundation models?</li>
                             <li>How to make foundation model compatible and enable integration of classic scientific tools?</li>
                         </ul>
                     </li>
-                    <li>
-                        <strong>Challenges.</strong>
+                    <li><strong>Challenges.</strong>
                         <ul>
                             <li>How to diagnose failure cases or modes that scientific foundation models cannot perform well?</li>
                             <li>How to align scientific foundation models with scientific facts without hallucination?</li>
@@ -82,79 +65,67 @@
                         </ul>
                     </li>
                 </ol>
-
-                <p><strong>Scientific Domains.</strong> We invite paper submissions from various scientific domains, including but not limited to Quantum Mechanics (e.g., nuclear fusion), Small Molecules, Biomedicine (e.g., proteins, biosequences, virtual screening), Materials Science (e.g., batteries, chemical synthesis), Earth Science, and Computational Science (e.g., PDEs, forecasting). Applications-driven submissions focusing on AI-for-Science and Scientific Machine Learning (SciML) are also highly encouraged.</p> 
-
+                <p><strong>Scientific Domains.</strong> We invite paper submissions from various scientific domains, including but not limited to Quantum Mechanics (e.g., nuclear fusion), Small Molecules, Biomedicine (e.g., proteins, biosequences, virtual screening), Materials Science (e.g., batteries, chemical synthesis), Earth Science, and Computational Science (e.g., PDEs, forecasting). Applications-driven submissions focusing on AI-for-Science and Scientific Machine Learning (SciML) are also highly encouraged.</p>
             </section>
 
-            
 
             <section id="speakers" class="Speakers">
-                
-                <h2>Speakers (A-Z by Last Name) (last updated: 6/2/2024)</h2>  
-
-               <div class="Speaker" style="position: relative;">
-                    <img src="images/shirley_ho.png" alt="Shirley Ho" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://www.shirleyho.space/" target="_blank">Shirley Ho [confirmed]</a></h3>
-                    <p>Senior Research Scientist + Group Leader, Center for Computational Astrophysics, Flatiron Institute, Simons Foundation</p>
-                    <p>Research Professor of Physics & Data Science, New York University</p>
-		    <br/>
-               </div>
-
-
-                <!-- <div class="Speaker">
-                    <h3><a href="https://www.shirleyho.space/" target="_blank">Shirley Ho [confirmed]</a></h3>
-                    <p>Senior Research Scientist + Group Leader, Center for Computational Astrophysics, Flatiron Institute, Simons Foundation</p>
-                    <p>Research Professor of Physics & Data Science, New York University</p>
-                </div> -->
-
-                <div class="Speaker" style="position: relative;">
-                    <img src="images/michael_mahoney.png" alt="Michael Mahoney" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://www.stat.berkeley.edu/~mmahoney/" target="_blank">Michael Mahoney [confirmed]</a></h3>
-                    <p>Professor</p>
-                    <p>University of California at Berkeley</p>
-		    <br/>
+                <h2>Speakers (A-Z by Last Name)</h2>
+                <div class="speaker">
+                    <img src="images/shirley_ho.png" alt="Shirley Ho">
+                    <div class="speaker-info">
+                        <h3><a href="https://www.shirleyho.space/" target="_blank">Shirley Ho</a></h3>
+                        <p>Senior Research Scientist + Group Leader, Center for Computational Astrophysics, Flatiron Institute, Simons Foundation</p>
+                        <p>Research Professor of Physics & Data Science, New York University</p>
+                    </div>
                 </div>
-
-                <div class="Speaker" style="position: relative;">
-                    <img src="images/paris_perdikaris.jpeg" alt="Paris Perdikaris" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://scholar.google.com/citations?user=h_zkt1oAAAAJ&hl=en" target="_blank">Paris Perdikaris [confirmed]</a></h3>
-                    <p>Associate Professor, University of Pennsylvania</p>
-                    <p>Principal Researcher, Microsoft Research</p>
-		    <br/>
+                <div class="speaker">
+                    <img src="images/michael_mahoney.png" alt="Michael Mahoney">
+                    <div class="speaker-info">
+                        <h3><a href="https://www.stat.berkeley.edu/~mmahoney/" target="_blank">Michael Mahoney</a></h3>
+                        <p>Professor, University of California at Berkeley</p>
+                        <p>Vice President, International Computer Science Institute (ICSI)</p>
+                        <p>Group Lead, Machine Learning and Analytics Group, Lawrence Berkeley National Laboratory</p>
+                    </div>
                 </div>
-
-                <div class="Speaker" style="position: relative;">
-                    <img src="images/danielle_maddix_robinson.png" alt="Danielle Maddix Robinson" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://dcmaddix.github.io/" target="_blank">Danielle Maddix Robinson [confirmed]</a></h3>
-                    <p>Senior Applied Scientist,</p>
-                    <p>AWS AI Labs</p>
-		    <br/>
+                <div class="speaker">
+                    <img src="images/paris_perdikaris.jpeg" alt="Paris Perdikaris">
+                    <div class="speaker-info">
+                        <h3><a href="https://scholar.google.com/citations?user=h_zkt1oAAAAJ&hl=en" target="_blank">Paris Perdikaris</a></h3>
+                        <p>Associate Professor, University of Pennsylvania</p>
+                        <p>Principal Researcher, Microsoft Research</p>
+                    </div>
                 </div>
-
-                <div class="Speaker" style="position: relative;">
-                    <img src="images/max_welling.jpeg" alt="Max Welling" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank">Max Welling [confirmed]</a></h3>
-                    <p>Professor</p>
-                    <p>University of Amsterdam</p>
-		    <br/>
+                <div class="speaker">
+                    <img src="images/danielle_maddix_robinson.png" alt="Danielle Maddix Robinson">
+                    <div class="speaker-info">
+                        <h3><a href="https://dcmaddix.github.io/" target="_blank">Danielle Maddix Robinson</a></h3>
+                        <p>Senior Applied Scientist, AWS AI Labs</p>
+                    </div>
                 </div>
-
-                <div class="Speaker" style="position: relative;">
-                    <img src="images/laure_zanna.jpeg" alt="Laure Zanna" style="float: right; margin-left: 20px; width: 150px; height: auto;">
-                    <h3><a href="https://zanna-researchteam.github.io/" target="_blank">Laure Zanna [confirmed]</a></h3>
-                    <p>Professor</p>
-                    <p>New York University</p>
-		    <br/>
+                <div class="speaker">
+                    <img src="images/max_welling.jpeg" alt="Max Welling">
+                    <div class="speaker-info">
+                        <h3><a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank">Max Welling</a></h3>
+                        <p>Reearch Chair in Machine Learning, University of Amsterdam</p>
+                        <p>Distinguished Scientist, Microsoft Research</p>
+                    </div>
                 </div>
-
+                <div class="speaker">
+                    <img src="images/laure_zanna.jpeg" alt="Laure Zanna">
+                    <div class="speaker-info">
+                        <h3><a href="https://zanna-researchteam.github.io/" target="_blank">Laure Zanna</a></h3>
+                        <p>Professor, New York University</p>
+                        <p>Scientific Director and Lead PI, M²LInES</p>
+                    </div>
+                </div>
             </section>
+            
 
             <section id="call" class="location">
                 <h2>Call for Papers</h2>
-
-                <div class="Important Dates">
-                    <h3>Tentative important dates (anywhere on earth):</h3>
+                <div class="important-dates">
+                    <h3>Tentative important dates (AoE time):</h3>
                     <p>Abstract Submission Deadline: August 27, 2024</p>
                     <p>Paper Submission Deadline: August 30, 2024</p>
                     <p>Review Bidding Period: August 30 - September 2, 2024</p>
@@ -167,7 +138,7 @@
             <section id="schedule">
                 <h2>Schedule</h2>
                 <p>All times are in Vancouver Time (GMT-7).</p>
-                <table>
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>Vancouver Time (GMT-7)</th>
@@ -191,7 +162,7 @@
                             <td>10:40-11:10</td>
                             <td>Poster/Break</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>11:15-11:45</td>
                             <td>Contributed Talks</td>
                         </tr>
@@ -225,84 +196,78 @@
                         </tr>
                     </tbody>
                 </table>
-                </section>
-
-
-            <section id="organizers" class="Organizers">
-                <h2>Organizers </h2>
-
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/wuyang_chen.jpg" alt="Wuyang Chen" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://delta-lab-ai.github.io/" target="_blank">Wuyang Chen</a></h3>
-                    <p>Assistant Professor</p>
-                    <p>Simon Fraser University</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/pu_ren.jpeg" alt="Pu Ren" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://paulpuren.github.io/" target="_blank">Pu Ren</a></h3>
-                    <p>Postdoc Fellow</p>
-                    <p>Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/elena_massara.jpeg" alt="Elena Massara" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://scholar.google.com/citations?user=sDyDmckAAAAJ&hl=en" target="_blank">Elena Massara</a></h3>
-                    <p>Independent Researcher</p>
-                    <p>(previous: Postdoc Fellow at University of Waterloo)</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/yongji_wang.jpeg" alt="Yongji Wang" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://scholar.google.com/citations?user=_Hskk60AAAAJ&hl=en" target="_blank">Yongji Wang</a></h3>
-                    <p>Postdoctoral Associate</p>
-                    <p>Courant Institute, NYU</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/benjamin_erichson.jpeg" alt="Benjamin Erichson" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://www.benerichson.com/" target="_blank">Benjamin Erichson</a></h3>
-                    <p>Senior Research Scientist and Research Group Leader, International Computer Science Institute (ICSI)</p>
-		    <p>Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/laurence_perreault_levasseur.jpg" alt="Laurence Perreault-Levasseur" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://scholar.google.com/citations?user=wVXcNOQAAAAJ&hl=en" target="_blank">Laurence Perreault-Levasseur</a></h3>
-                    <p>Assistant Professor</p>
-		    <p>University of Montreal</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/bo_li.jpeg" alt="Bo Li" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://aisecure.github.io/" target="_blank">Bo Li</a></h3>
-                    <p>Associate Professor</p>
-                    <p>University of Chicago</p>
-		    <br/>
-                </div>
-                
-                <div class="Organizers" style="position: relative;">
-                    <img src="images/swarat_chaudhuri.jpeg" alt="Swarat Chaudhuri" style="float: right; margin-left: 20px; width: auto; height: 150px;">
-                    <h3><a href="https://www.cs.utexas.edu/~swarat/" target="_blank">Swarat Chaudhuri</a></h3>
-                    <p>Professor</p>
-                    <p>The University of Texas at Austin</p>
-		    <br/>
-                </div>
             </section>
 
 
-            
+            <section id="organizers" class="Organizers">
+                <h2>Organizers</h2>
+                <div class="organizer">
+                    <img src="images/wuyang_chen.jpg" alt="Wuyang Chen">
+                    <div class="organizer-info">
+                        <h3><a href="https://delta-lab-ai.github.io/" target="_blank">Wuyang Chen</a></h3>
+                        <p>Assistant Professor, Simon Fraser University</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/pu_ren.jpeg" alt="Pu Ren">
+                    <div class="organizer-info">
+                        <h3><a href="https://paulpuren.github.io/" target="_blank">Pu Ren</a></h3>
+                        <p>Postdoc Fellow, Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/elena_massara.jpeg" alt="Elena Massara">
+                    <div class="organizer-info">
+                        <h3><a href="https://scholar.google.com/citations?user=sDyDmckAAAAJ&hl=en" target="_blank">Elena Massara</a></h3>
+                        <p>Independent Researcher (previous: Postdoc Fellow at University of Waterloo)</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/yongji_wang.jpeg" alt="Yongji Wang">
+                    <div class="organizer-info">
+                        <h3><a href="https://scholar.google.com/citations?user=_Hskk60AAAAJ&hl=en" target="_blank">Yongji Wang</a></h3>
+                        <p>Postdoctoral Associate, Courant Institute, NYU</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/benjamin_erichson.jpeg" alt="Benjamin Erichson">
+                    <div class="organizer-info">
+                        <h3><a href="https://www.benerichson.com/" target="_blank">Benjamin Erichson</a></h3>
+                        <p>Senior Research Scientist and Research Group Leader, International Computer Science Institute (ICSI)</p>
+                        <p>Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/laurence_perreault_levasseur.jpg" alt="Laurence Perreault-Levasseur">
+                    <div class="organizer-info">
+                        <h3><a href="https://scholar.google.com/citations?user=wVXcNOQAAAAJ&hl=en" target="_blank">Laurence Perreault-Levasseur</a></h3>
+                        <p>Assistant Professor, University of Montreal</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/bo_li.jpeg" alt="Bo Li">
+                    <div class="organizer-info">
+                        <h3><a href="https://aisecure.github.io/" target="_blank">Bo Li</a></h3>
+                        <p>Associate Professor, University of Chicago</p>
+                    </div>
+                </div>
+                <div class="organizer">
+                    <img src="images/swarat_chaudhuri.jpeg" alt="Swarat Chaudhuri">
+                    <div class="organizer-info">
+                        <h3><a href="https://www.cs.utexas.edu/~swarat/" target="_blank">Swarat Chaudhuri</a></h3>
+                        <p>Professor, The University of Texas at Austin</p>
+                    </div>
+                </div>
+            </section>
         </article>
     </div>
 
     <footer>
         <p>Contact us at <a style="color:white" href="mailto:foundationmodelscience@gmail.com">foundationmodelscience@gmail.com</a></p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
