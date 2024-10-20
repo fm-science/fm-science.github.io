@@ -10,7 +10,9 @@ function loadHTML(elementId, filePath) {
         });
 }
 
+// Scroll to top immediately when the page is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    window.scrollTo(0, 0);  // Ensure scroll to top on page load
     loadHTML('header', 'header.html');
     loadHTML('navbar', 'navbar.html');
     loadHTML('footer', 'footer.html');
