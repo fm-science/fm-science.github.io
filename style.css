@@ -181,3 +181,32 @@ footer {
         max-width: 100%;
     }
 }
+
+/* ===== Blockquote / Callout (DBM-like) ===== */
+blockquote.callout{
+  margin: 24px auto;
+  padding: 18px 20px;
+
+  background: #f8f9fa;                /* matches your header gray */
+  border: 1px solid rgba(0,0,0,0.08);
+  border-left: 6px solid #c026d3;     /* magenta accent */
+
+  border-radius: 14px;
+}
+
+blockquote.callout p{
+  margin: 0;
+  color: rgba(0,0,0,0.72);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* optional: a subtle quote mark */
+blockquote.callout::before{
+  content: "“";
+  display: block;
+  font-size: 34px;
+  line-height: 1;
+  color: rgba(192, 38, 211, 0.35);
+  margin-bottom: 6px;
+}
