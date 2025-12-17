@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #f4f4f4; /* A soft, modern light gray */
+    color: #333;        /* Darker text for contrast */
     padding: 20px 0;
     text-align: center;
+    border-bottom: 1px solid #ddd; /* Optional: adds definition against a white page */
 }
 
 header h1 {
