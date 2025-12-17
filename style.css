@@ -108,14 +108,18 @@ html, body {
 .hero{
   width: 100%;
   padding: 56px 0 44px;
-  background: #f2f4f8;                 /* light gray */
+  background: #f8f9fa;                 /* light gray */
   border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .hero-inner{
-  max-width: 1400px;                   /* wide */
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 32px;                     /* gutters */
+  padding: 0 32px;
+  text-align: center;
+}
+
+.hero * {
   text-align: center;
 }
 
@@ -150,7 +154,8 @@ html, body {
   color: rgba(0,0,0,0.60);
   display: flex;
   gap: 10px;
-  justify-content: center;
+  justify-content: center;   /* <-- key line */
+  align-items: center;
   flex-wrap: wrap;
 }
 
