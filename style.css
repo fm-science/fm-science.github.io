@@ -238,3 +238,24 @@ blockquote.callout::before{
   color: rgba(192, 38, 211, 0.35);
   margin-bottom: 6px;
 }
+
+
+/* Particles background in hero */
+.hero--particles {
+  position: relative;
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* keep hero content above particles */
+.hero--particles .hero-inner {
+  position: relative;
+  z-index: 1;
+}
