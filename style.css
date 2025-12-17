@@ -182,6 +182,24 @@ footer {
     }
 }
 
+
+/* ===== Hero contact line ===== */
+.hero-contact{
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgba(0,0,0,0.6);
+}
+
+.hero-contact a{
+  color: #3182bd;          
+  text-decoration: none;
+}
+
+.hero-contact a:hover{
+  text-decoration: underline;
+}
+
+
 /* ===== Section spacing ===== */
 section {
   padding: 48px 0;   /* space inside the section */
