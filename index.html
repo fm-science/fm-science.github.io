@@ -39,41 +39,44 @@
     <div class="container mt-5">
         <article>
             <section id="home" class="Description">
-              <p>
-                Artificial Intelligence (AI) is beginning to measurably accelerate scientific discovery across materials science,
-                the life sciences, and Earth systems. This workshop focuses on the design principles,
-                models, and methods that should form the foundation for <strong>AI for Science</strong>.
-                We are interested in the next generation of scientific foundation models—systems that
-                advance real scientific inquiries such as forecasting extreme climate events, accelerating
-                materials discovery, and uncovering biological mechanisms—co-developed with domain experts
-                and validated against real-world data, experiments, and downstream decision impact.
-              </p>
+            <p>
+              Artificial Intelligence (AI) is beginning to measurably accelerate scientific discovery across materials science,
+              the life sciences, and Earth systems. This workshop focuses on the principles, models, and methods that should form
+              the foundation for <strong>AI for Science</strong>. We are interested in the next generation of scientific foundation
+              models—systems that advance real scientific inquiries such as forecasting extreme climate events, accelerating
+              materials discovery, and uncovering biological mechanisms—co-developed with domain experts and validated against
+              real-world data, experiments, and downstream decision impact.
+            </p>
+
             
               <blockquote class="callout"> 
-              <p>
-                We argue that <strong>foundation models for science</strong> must be built differently from
-                those for language and vision. Scientific data are physical, causal, and spatiotemporal, and
-                are often scarce, biased, and heterogeneous. As a result, models must encode the right
-                <strong>inductive biases</strong>—capturing invariances, constraints, and causal structure—so that
-                they generalize reliably beyond the training distribution. These requirements in turn shape the
-                learning objectives, which should reward mechanistic consistency, calibrated uncertainty, and
-                downstream decision usefulness, not only predictive accuracy. Meeting these requirements calls for
-                incorporating scientific priors and constraints, robust uncertainty quantification (UQ), and architectures
-                that natively support multi-modality—spanning grids, meshes, spectra, time series, point clouds, text,
-                images, and code. It also demands tight integration with classical scientific tools, including simulators,
-                PDE solvers, optimization and inference engines, and HPC workflows, to create <strong>hybrid systems</strong>
-                that are faster, more accurate, and more trustworthy than either component alone.
-              </p>
+            <p>
+              <strong>Rethinking foundation models for science.</strong>
+              We argue that foundation models for science must be built differently from those for language and vision.
+              Scientific data and workflows differ in fundamental ways: they often encode physical structure and causal
+              relationships, may be spatiotemporal and multi-scale, and frequently involve heterogeneous modalities and
+              uneven or limited coverage. These characteristics motivate models that incorporate the right
+              <strong>inductive biases</strong>—such as invariances, constraints, and causal structure—to support reliable
+              generalization beyond the training distribution. They also motivate learning objectives and evaluation
+              protocols that go beyond predictive accuracy to emphasize mechanistic consistency, calibrated uncertainty,
+              and usefulness for downstream scientific decisions. Meeting these requirements calls for incorporating
+              scientific priors and constraints, robust uncertainty quantification (UQ), and architectures that natively
+              support multi-modality—spanning grids, meshes, spectra, time series, point clouds, text, images, and code—
+              along with tight integration with classical scientific tools, including simulators, PDE solvers, optimization
+              and inference engines, and HPC workflows, to create <strong>hybrid systems</strong> that are faster, more
+              accurate, and more trustworthy.
+            </p>
+
               </blockquote>
             
-              <p>
-                We will highlight opportunities and hard problems that are unique to science: enforcing conservation
-                laws and symmetries; learning across vast spatial and temporal scales; representing extremes, rare
-                events, and tipping points; calibrating and validating UQ; and developing evaluation protocols that
-                reward mechanistic insight and actionable reliability. The workshop’s goal is to articulate a roadmap
-                for building, training, and deploying scientific foundation models that accelerate discovery while
-                respecting the structure of the natural world.
-              </p>
+                <p>
+                  The workshop will surface <strong>principles</strong>, <strong>methods</strong>, and <strong>open problems</strong> unique
+                  to science, including enforcing conservation laws and symmetries; learning across vast spatial and temporal scales;
+                  representing extremes, rare events, and tipping points; calibrating and validating UQ; and developing evaluation
+                  protocols that reward mechanistic insight and actionable reliability. Our goal is to articulate a roadmap for building,
+                  training, and deploying scientific foundation models that accelerate discovery while respecting the structure of the
+                  natural world.
+                </p>
               
               <p>
                 There are three aims that shape the content and format of the workshop:
