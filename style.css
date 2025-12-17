@@ -207,3 +207,66 @@ a:hover{ color: var(--accent2); text-decoration: underline; }
 
 /* prevents sticky nav covering headings */
 h2, h3{ scroll-margin-top: 72px; }
+
+
+/* --- Header / Hero (refresh) --- */
+.hero {
+  /* full-width band */
+  width: 100%;
+  padding: 56px 0 40px;
+
+  /* nice light gray that contrasts dark nav */
+  background: #f2f4f8;
+
+  /* subtle separation */
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* make inner content wide (almost full page) */
+.hero-inner {
+  max-width: 1400px;     /* wider than before */
+  margin: 0 auto;
+  padding: 0 32px;       /* roomy gutters */
+}
+
+/* tighten up the type system: fewer sizes */
+.hero-kicker {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 44px;       /* not gigantic, but strong */
+  line-height: 1.15;
+  margin: 0 0 12px;
+}
+
+.hero-subtitle {
+  font-size: 20px;       /* only one step down */
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80ch;
+  opacity: 0.9;
+}
+
+.hero-meta {
+  margin-top: 18px;
+  font-size: 18px;       /* close to subtitle, consistent */
+  opacity: 0.8;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* mobile adjustments */
+@media (max-width: 767px) {
+  .hero { padding: 44px 0 30px; }
+  .hero-inner { padding: 0 18px; }
+  .hero-title { font-size: 34px; }
+  .hero-subtitle { font-size: 18px; }
+  .hero-meta { font-size: 16px; }
+}
