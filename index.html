@@ -8,43 +8,138 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
+
+
+
 <body>
-    <div id="header"></div>
     <div id="navbar"></div>
+
+    <header class="hero" id="top">
+      <div id="particles-js" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-kicker">ICLR 2026 Workshop</div>
+        <h1 class="hero-title">The 2nd Workshop on Foundation Models for Science</h1>
+        <p class="hero-subtitle">
+          Rethinking Foundation Models for Science: From Principles to Practice
+        </p>
+    
+        <div class="hero-meta">
+          <span>Rio de Janeiro, Brazil</span>
+          <span>•</span>
+          <span>April 26–27, 2026</span>
+        </div>
+        
+        <div class="hero-contact">
+          Email:
+          <a href="mailto:foundationmodelscience@gmail.com">
+            foundationmodelscience@gmail.com
+          </a>
+        </div>
+        
+      </div>
+    </header>
+
 
     <div class="container mt-5">
         <article>
             <section id="home" class="Description">
-                <h2>Description</h2>
-                <p>Scientific foundation models should be built <b>for science</b>, not for generic AI tastes or leaderboard prestige. This workshop centers <i>problem-driven design: models that measurably advance real scientific inquiries</i>, e.g., forecasting extreme climate events, accelerating materials discovery, understanding biological mechanisms, co-developed with domain experts and validated against field data, experiments, and downstream impact.</p>
-                <p>We argue that <b>foundation models for science must be built differently</b> from those in language and vision. Scientific data are physical, causal, spatiotemporal, and often scarce or biased; objectives must reflect mechanistic fidelity and decision utility, not just predictive accuracy. This calls for <i>scientific priors and constraints, robust uncertainty quantification (UQ), and architectures that natively handle multi-modality (e.g., grids, meshes, spectra, time series, point clouds, text, images, and code)</i>. It also demands tight integration with classical scientific tools (simulators, PDE solvers, optimization and inference engines, and HPC workflows) to yield hybrid systems that are faster, more accurate, and more trustworthy than either alone.</p>
-                <p>We will highlight opportunities and hard problems <b>unique to science</b>: enforcing conservation laws and symmetries; learning across vast spatial and temporal scales; representing extreme events and tipping points; calibrating and validating UQ; and developing evaluation protocols that reward mechanistic insight and actionable reliability. The goal is a roadmap for building, training, and deploying scientific foundation models that accelerate discovery while respecting the structure of the natural world.</p>
+            <p>
+              Artificial Intelligence (AI) is beginning to measurably accelerate scientific discovery across materials science,
+              the life sciences, and Earth systems. This workshop focuses on the principles, models, and methods that should form
+              the foundation for <strong>AI for Science</strong>. We are interested in the next generation of scientific foundation
+              models—systems that advance real scientific inquiries such as forecasting extreme climate events, accelerating
+              materials discovery, and uncovering biological mechanisms—co-developed with domain experts and validated against
+              real-world data, experiments, and downstream decision impact.
+            </p>
+
+            
+              <blockquote class="callout"> 
+                <p>
+                  <strong>Rethinking foundation models for science.</strong>
+                  We argue that foundation models for science must be built differently from those for language and vision.
+                  Scientific data and workflows encode physical and causal structure, span space and time, and often combine
+                  heterogeneous modalities across multiple scales. This motivates models with the right
+                  <strong>inductive biases</strong>—invariances, constraints, and causal structure—for reliable generalization, and
+                  evaluations that prioritize mechanistic consistency, calibrated uncertainty (UQ), and decision usefulness.
+                  Achieving this will require scientific priors, multi-modal architectures, and tight integration with classical
+                  scientific tools to build <strong>hybrid systems</strong> that are faster, more accurate, and more trustworthy than
+                  either component alone.
+                </p>
+              </blockquote>
+            
+                <p>
+                  The workshop will surface <strong>principles</strong>, <strong>methods</strong>, and <strong>open problems</strong> unique
+                  to science, including enforcing conservation laws and symmetries; learning across vast spatial and temporal scales;
+                  representing extremes, rare events, and tipping points; calibrating and validating UQ; and developing evaluation
+                  protocols that reward mechanistic insight and actionable reliability. Our goal is to articulate a roadmap for building,
+                  training, and deploying scientific foundation models that accelerate discovery while respecting the structure of the
+                  natural world.
+                </p>
+              
+              <p>
+                There are three aims that shape the content and format of the workshop:
+                </p>
+                
+                <ol>
+                  <li>
+                    <strong>Aim 1: Define the scientific questions that foundation models should address.</strong>
+                    <p>
+                      What classes of scientific problems—across the physical, life, and Earth sciences—are
+                      most amenable to foundation-model approaches? Which questions require learning from large,
+                      heterogeneous datasets, and where current modeling or simulation pipelines fall short?
+                      We aim to clarify the scientific use cases that genuinely benefit from foundation models,
+                      beyond incremental performance improvements.
+                    </p>
+                  </li>
+                
+                  <li>
+                    <strong>Aim 2: Identify principles for building foundation models tailored to science.</strong>
+                    <p>
+                      What modeling assumptions, architectures, objectives, and training strategies are
+                      appropriate for scientific data that are physical, causal, spatiotemporal, and often
+                      sparse or biased? How should scientific priors, constraints, uncertainty quantification,
+                      and multi-modality be incorporated? This aim focuses on extracting common principles
+                      rather than prescribing a single paradigm.
+                    </p>
+                  </li>
+                
+                  <li>
+                    <strong>Aim 3: Bridge machine learning methods with scientific workflows and evaluation.</strong>
+                    <p>
+                      How can foundation models be integrated into real scientific workflows involving
+                      experiments, simulations, and decision-making? What evaluation protocols, validation
+                      strategies, and collaboration structures are needed to ensure scientific credibility,
+                      interpretability, and long-term impact? We aim to surface best practices and open challenges
+                      for deploying models in the loop of scientific discovery.
+                    </p>
+                  </li>
+                </ol>
+
+              
+              <p>
+                  <strong>Scientific Domains.</strong>
+                  We invite submissions spanning a broad range of scientific domains, including (but not limited to)
+                  astrophysics and space science; biomedicine (e.g., proteins, biosequences, virtual screening);
+                  computational science (e.g., PDEs, forecasting); Earth science; materials science (e.g., batteries,
+                  chemical synthesis); quantum science (e.g., fusion and many-body systems); and small molecules.
+                  We also encourage applications-driven work in AI for Science and scientific machine learning (SciML),
+                  especially submissions grounded in real scientific workflows, data, and validation.
+                </p>
+                
+                <p>
+                  <strong>Short Paper Track.</strong>
+                  Following ICLR 2026 guidance, we will host a dedicated short paper track to encourage early-stage,
+                  high-potential ideas that may not yet be mature enough for full-length submissions. Papers in this
+                  track will receive a light but fair review focused on novelty, clarity, and potential impact.
+                  To ensure integrity and originality, <strong>AI-generated papers will not be permitted for this track</strong>.
+                  Selected short papers will be presented as posters or short talks to foster interactive discussion
+                  and community feedback.
+                </p>
+
+              
             </section>
 
-            <section id="topics" class="Topics">
-                <h2>Topics</h2>
-                <p>In this workshop, we aim to bring together experts from foundation models and scientific problems, spur discussions, and foster collaborations on broad and transformative questions and challenges (include but not limited to):</p>
-                <ol>
-                    <li><strong>Real-World Impact.</strong>
-                        <ul>
-                            <li><b>Problem-driven progress:</b> Demonstrate measurable gains on urgent scientific tasks (e.g., new scientific discovery, forecasting, prediction quality), not just leaderboards.</li>
-                            <li><b>Reusability, adaptation, and trustworthy evaluation:</b> Pretrained models should transfer across instruments/labs/regimes with lightweight adaptation (fine-tuning, adapters, retrieval, prompting), deliver calibrated UQ grounded in scientific facts, and withstand rare-event stress tests.</li>
-                            <li><b>Accelerating the scientific loop:</b> Close the loop of ``hypothesis, design, experiment/simulation, analysis,'' reducing cycle time and cost.</li>
-                            <li><b>Operations across scales, extremes, and production:</b> Multi-scale (spatial/temporal) coupling with adaptive resolution and stable long-horizon rollouts; portable HPC/edge deployment with monitoring, diagnostics, and safeguards.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Science-First Design.</strong>
-                        <ul>
-                            <li><b>Scaling laws for science:</b> Are data/model/compute scaling trends and training curricula fundamentally different from NLP/vision? What pretraining corpora best transfer?</li>
-                            <li><b>Physical and scientific constraints:</b> Embed conservation laws, symmetries, invariants, and causal structure during training and inference (e.g., constrained decoding, differentiable physics).</li>
-                            <li><b>Integration with classical tools:</b> Hybridize with simulators, PDE solvers, optimizers, and Bayesian inverse methods; quantify speed-accuracy trade-offs (emulators/surrogates).</li>
-                            <li><b>Failure modes and diagnostics:</b> Systematically identify when/why models fail; interpretability for mechanism discovery; dataset/model audits and reproducibility.</li>
-                        </ul>
-                    </li>
-                </ol>
-                <p><strong>Scientific Domains.</strong> We invite paper submissions from various scientific domains, including but not limited to: Astrophysics and Space Science, Biomedicine (e.g., proteins, biosequences, virtual screening), Computational Science (e.g., PDEs, forecasting), Earth Science, Materials Science (e.g., batteries, chemical synthesis), Quantum Mechanics (e.g., nuclear fusion), Small Molecules. Applications-driven submissions focusing on AI-for-Science and Scientific Machine Learning (SciML) are also highly encouraged.</p>
-                <p><strong>Short Paper Track</strong> In alignment with ICLR 2026 guidance, we will host a dedicated tiny/short paper track to encourage the submission of early-stage, high-potential ideas that may not yet be mature enough for full-length papers. Submissions to this track will undergo a light but fair review process focused on novelty, clarity, and potential impact. To ensure integrity and originality, <strong>AI-generated papers will not be permitted for this track</strong>. Selected tiny papers will be presented as posters or short talks to foster interactive discussion and community feedback.</p>
-            </section>
+
 
 
             <section id="speakers" class="Speakers">
@@ -206,34 +301,20 @@
                         <p>Assistant Professor, Simon Fraser University</p>
                     </div>
                 </div>
-                <!-- <div class="organizer">
-                    <img src="images/pu_ren.jpeg" alt="Pu Ren">
+                <div class="organizer">
+                    <img src="images/benjamin_erichson.jpeg" alt="Ben Erichson">
                     <div class="organizer-info">
-                        <h3><a href="https://paulpuren.github.io/" target="_blank">Pu Ren</a></h3>
-                        <p>Postdoc Fellow, Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
+                        <h3><a href="https://www.benerichson.com/" target="_blank">Ben Erichson</a></h3>
+                        <p>Senior Research Scientist, International Computer Science Institute (ICSI)</p>
+                        <p>Research Scientist, Berkeley Lab</p>
                     </div>
-                </div> -->
-                <!-- <div class="organizer">
-                    <img src="images/elena_massara.jpeg" alt="Elena Massara">
-                    <div class="organizer-info">
-                        <h3><a href="https://scholar.google.com/citations?user=sDyDmckAAAAJ&hl=en" target="_blank">Elena Massara</a></h3>
-                        <p>Independent Researcher (previous: Postdoc Fellow at University of Waterloo)</p>
-                    </div>
-                </div> -->
+                </div>
                 <div class="organizer">
                     <img src="images/yongji_wang.jpeg" alt="Yongji Wang">
                     <div class="organizer-info">
                         <h3><a href="https://scholar.google.com/citations?user=_Hskk60AAAAJ&hl=en" target="_blank">Yongji Wang</a></h3>
                         <!-- <p>Postdoctoral Associate, Courant Institute, NYU</p> -->
                         <p>Research Scientist, Google Deepmind</p>
-                    </div>
-                </div>
-                <div class="organizer">
-                    <img src="images/benjamin_erichson.jpeg" alt="Benjamin Erichson">
-                    <div class="organizer-info">
-                        <h3><a href="https://www.benerichson.com/" target="_blank">Benjamin Erichson</a></h3>
-                        <p>Senior Research Scientist and Research Group Leader, International Computer Science Institute (ICSI)</p>
-                        <p>Machine Learning and Analytics Group, Lawrence Berkeley National Lab</p>
                     </div>
                 </div>
                 <div class="organizer">
@@ -277,5 +358,27 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./custom.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS("particles-js", {
+        "particles": {
+          "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
+          "color": { "value": "#c026d3" },
+          "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" } },
+          "opacity": { "value": 0.35, "random": false },
+          "size": { "value": 3, "random": true },
+          "line_linked": { "enable": true, "distance": 150, "color": "#111827", "opacity": 0.15, "width": 1 },
+          "move": { "enable": true, "speed": 2.5, "direction": "none", "out_mode": "out", "bounce": false }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": false }, "resize": true },
+          "modes": { "repulse": { "distance": 60, "duration": 0.4 } }
+        },
+        "retina_detect": true
+      });
+</script>    
+    
 </body>
 </html>
