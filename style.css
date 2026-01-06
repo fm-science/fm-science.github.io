@@ -121,6 +121,13 @@ h2 { color: var(--text-main); margin-bottom: 20px; }
     flex-shrink: 0;
 }
 
+.sponsor img {
+    margin-right: 20px;
+    /* max-width: 150px; */
+    height: 150px;
+    flex-shrink: 0;
+}
+
 .speaker-info, .organizer-info {
     max-width: calc(100% - 170px);
 }
@@ -191,7 +198,7 @@ footer {
 }
 
 .hero-contact a{
-  color: #3182bd;          
+  color: #3182bd;
   text-decoration: none;
 }
 
