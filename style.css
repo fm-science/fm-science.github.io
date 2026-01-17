@@ -308,3 +308,8 @@ header.hero > .hero-inner {
   position: relative !important;
   z-index: 1 !important;
 }
+
+.sponsor-list { padding-left: 1.4em; }
+.sponsor-list li.best { list-style-type: "🏆 "; }
+.sponsor-list li.runner { list-style-type: "💻 "; }
+.sponsor-list li.support { list-style-type: "🎉 "; }
