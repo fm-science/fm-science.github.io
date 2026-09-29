@@ -75,7 +75,6 @@ h2 { color: var(--text-main); margin-bottom: 20px; }
     font-size: 35px;
     font-weight: 600;
     letter-spacing: 0.08em;
-    text-transform: uppercase;
     color: rgba(0, 0, 0, 0.55);
     margin-bottom: 10px;
 }
