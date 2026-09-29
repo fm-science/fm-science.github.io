@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Call for Papers - Foundation Models for Science</title>
+    <title>Call for Papers | Scientific Agents | FM4Science 2027</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
@@ -14,75 +14,74 @@
 
     <div class="container mt-5">
         <section id="call_for_papers">
-            <h2>Call for Papers</h2>
-            <p>We invite paper submissions to the workshop on Foundation Models for Science (FM4Science) co-located with the ICLR 2026, the Fourteenth International Conference on Learning Representations, at Rio de Janeiro, Brazil.</p>
+            <h1 class="h2">Call for Papers: Scientific Agents</h1>
+            <p><strong>The 3rd Workshop on Foundation Models for Science</strong>, proposed for ICLR 2027 in San Francisco, California.</p>
+            <p>This preliminary call describes the planned scope and submission process. Workshop arrangements and dates remain subject to confirmation. The submission portal and ICLR-format template link will be announced here.</p>
+            <p>We invite methodological, theoretical, systems, and application papers on agents that formulate hypotheses, choose experiments, use scientific tools, and learn from evidence. Scientific domains include biology, chemistry, materials, physics, Earth science, and computational mathematics. Human-guided systems and studies of the limits of autonomy are welcome.</p>
 
-            <section id="topics" class="Topics">
-                <h3>Topics will include, but are not limited to:</h3>
-                <ul>
-                    <li>How to achieve better scaling laws for foundation models in scientific problems by designing datasets, network architectures, and training algorithms?</li>
-                    <li>How to design data augmentation and multi-modal self-supervised pretraining for scientific problems?</li>
-                    <li>How to design efficient fine-tuning with scientific awareness?</li>
-                    <li>How to quantify and reduce the uncertainty of scientific foundation models?</li>
-                    <li>How to improve the out-of-distribution generalization of scientific foundation models?</li>
-                    <li>How to make foundation models compatible with and enable the integration of classic scientific tools (simulators, solvers, etc.)?</li>
-                    <li>How to make scientific foundation models benefit from the reasoning and in-context learning of LLMs?</li>
-                    <li>How to better combine symbolic learning and data-driven learning?</li>
-                    <li>How to use foundation models to facilitate visualizations in scientific problems?</li>
-                    <li>How to accelerate scientific discovery and the collection/assimilation of scientific data with foundation models?</li>
-                    <li>How to diagnose failure cases or modes where scientific foundation models do not perform well?</li>
-                    <li>How to align scientific foundation models with scientific facts without hallucination?</li>
-                </ul>
-                <p><strong>Scientific Domains.</strong> We invite paper submissions from various scientific domains, including but not limited to: Astrophysics and Space Science, Biomedicine (e.g., proteins, biosequences, virtual screening), Computational Science (e.g., PDEs, forecasting), Earth Science, Materials Science (e.g., batteries, chemical synthesis), Quantum Mechanics (e.g., nuclear fusion), Small Molecules. Applications-driven submissions focusing on AI-for-Science and Scientific Machine Learning (SciML) are also highly encouraged.</p>
+            <section id="topics">
+                <h2>Topics of Interest</h2>
+                <ol>
+                    <li class="mb-3"><strong>Scientific tool use and composition of foundation models.</strong> Connect language and multimodal models with protein models, molecular generators, neural operators, PDE solvers, symbolic tools, and scientific databases. Study action representations, tool selection, interface validation, and uncertainty propagation.</li>
+                    <li class="mb-3"><strong>Experimental design and learning from feedback.</strong> Choose measurements, simulations, and interventions under limited budgets through active learning, Bayesian optimization, causal experimental design, reinforcement learning, multi-fidelity simulation, and adaptive stopping.</li>
+                    <li class="mb-3"><strong>Multi-agent collaboration and human scientific judgment.</strong> Understand when specialist roles, debate, and independent criticism improve scientific reasoning. Address correlated errors, evidence-grounded disagreement, human oversight, and comparisons with equally resourced single-agent systems.</li>
+                    <li class="mb-3"><strong>Long-running investigations, memory, and research workflows.</strong> Maintain coherent records of hypotheses, datasets, code, results, and rejected explanations. Develop persistent scientific memory, provenance, experiment search, reproducible workflows, and recovery from failed tools.</li>
+                    <li class="mb-3"><strong>Discovery through executable evaluation.</strong> Discover algorithms, numerical methods, mathematical constructions, and scientific software through program search and executable feedback. Study evaluator design, inference-time compute allocation, hidden-test generalization, and specification errors.</li>
+                    <li class="mb-3"><strong>Reliable evaluation and responsible scientific autonomy.</strong> Distinguish workflow completion, replication, hypothesis quality, and independently validated discovery. Explore contamination-aware benchmarks, uncertainty calibration, negative results, robustness, and permissioned laboratory execution.</li>
+                </ol>
             </section>
 
-            <h3>Tentative important dates (AoE time):</h3>
-            <ul>
-                <li>Abstract Submission Deadline: February 8, 2026</li> <!-- after ICML ddl -->
-                <li>Paper Submission Deadline: February 10, 2026</li>
-                <li>Review Bidding Period: February 8 - February 11, 2026</li>
-                <li>Review Deadline: February 24, 2026</li>
-                <li>Acceptance/Rejection Notification Date: March 1, 2026</li>
-                <li>Import Workshop Program and Accepted Papers to iclr.cc: March 11, 2026</li>
-                <li>Camera-Ready Submission: April 7, 2026</li>
-                <li>Workshop Date: April 27, 2026</li>
-            </ul>
-
-            <h3>Awards</h3>
-            <p>Among exceptional research papers with high review scores, we will select one best paper award and one runner-up.</p>
-
-            <h3>Submission policy</h3>
-            <p>Submission Format (inherit from ICLR 2026): <a href="https://github.com/ICLR/Master-Template/raw/master/iclr2026.zip" target="_blank"><b>Latex Template</b></a>.</p>
-            <p>Submission portal: <a href="https://openreview.net/group?id=ICLR.cc/2026/Workshop/FM4Science" target="_blank"><b>OpenReview</b></a>.</p>
-            <p>Our submission policy is inherited from <a href="https://iclr.cc/Conferences/2026/AuthorGuide" target="_blank">ICLR 2026</a>. All authors and submissions must adhere to the <a href="https://iclr.cc/Conferences/2026/AuthorGuide#:~:text=cannot%20be%20deleted.-,Code%20of%20Conduct,-All%20ICLR%20participants" target="_blank">ICLR code of conduct</a>.</p>
-            <ul>
-                <li><b>Submissions</b>: The main text of a submitted paper must be <b>at least four pages long and no more than nine pages</b>, including all figures and tables.
-                Note that paper quality will <b>not</b> be judged by their length as long as at least 4 pages.
-                Additional pages containing references don’t count as content pages. If your submission is accepted, you will be allowed an additional content page for the camera-ready version.
+            <section id="dates">
+                <h2>Tentative Important Dates</h2>
+                <p>All deadlines are at 23:59 Anywhere on Earth (AoE). The dates below are tentative.</p>
                 <ul>
-                    <li>The main text and references may be followed by technical appendices, for which there is no page limit.</li>
-                    <li>The maximum file size for a full submission, which includes technical appendices, is 50MB.</li>
-                </ul></li>
-                <li><b>Supplementary material</b>: While all technical appendices should be included as part of the main paper submission PDF, authors may submit up to 100MB of supplementary material, such as data, or source code in a ZIP format. Supplementary material should be material created by the authors that directly supports the submission content. Like submissions, supplementary material must be anonymized. Looking at supplementary material is at the discretion of the reviewers.
-                <ul>
-                    <li>We encourage authors to upload their code and data as part of their supplementary material in order to help reviewers assess the quality of the work. Check <a href="https://iclr.cc/Conferences/2026/AuthorGuide#:~:text=Q%3A%20How%20can%20we%20make%20our%20code%20available%20for%20reviewing%20anonymously%3F" target="_blank">the policy</a> as well as code submission <a href="https://github.com/paperswithcode/releasing-research-code" target="_blank">guidelines and templates</a> for further details.</li>
-                </ul></li>
-                <li><b>Use of Large Language Models (LLMs)</b>: We welcome authors to use any tool that is suitable for preparing high-quality papers and research. However, we ask authors to keep in mind two important criteria. First, we expect papers to fully describe their methodology, and any tool that is important to that methodology, including the use of LLMs, should be described also. For example, authors should mention tools (including LLMs) that were used for data processing or filtering, visualization, facilitating or running experiments, and proving theorems. It may also be advisable to describe the use of LLMs in implementing the method (if this corresponds to an important, original, or non-standard component of the approach). Second, authors are responsible for the entire content of the paper, including all text and figures, so while authors are welcome to use any tool they wish for writing the paper, they must ensure that all text is correct and original.</li>
-                <li><b>Double-blind reviewing</b>:  All submissions must be anonymized and may not contain any identifying information that may violate the double-blind reviewing policy.  This policy applies to any supplementary or linked material as well, including code.  If you are including links to any external material, it is your responsibility to guarantee anonymous browsing.  Please do not include acknowledgements at submission time. If you need to cite one of your own papers, you should do so with adequate anonymization to preserve double-blind reviewing.  For instance, write “In the previous work of Smith et al. [1]…” rather than “In our previous work [1]...”.
-                <!-- If you need to cite one of your own papers that is in submission to ICLR and not available as a non-anonymous preprint, then include a copy of the cited anonymized submission in the supplementary material and write “Anonymous et al. [1] concurrently show...”. -->
-                Any papers found to be violating this policy will be rejected.</li>
-                <!-- <li><b>Abstract Submission</b>: There is a mandatory abstract submission deadline on <b>August 19, 2025 (AoE time)</b>, three days before full paper submissions are due. While it will be possible to edit the title and abstract until the full paper submission deadline, submissions with “placeholder” abstracts that are rewritten for the full submission risk being removed without consideration. This includes titles and abstracts that either provide little or no semantic information (e.g., "We provide a new semi-supervised learning method.") or describe a substantively different claimed contribution.  The author list cannot be changed after the abstract deadline. After that, authors may be reordered, but any additions or removals must be justified in writing and approved on a case-by-case basis by the program chairs only in exceptional circumstances. </li> -->
-                <li><b>Anti-collusion</b>: We do not tolerate any collusion whereby authors secretly cooperate with reviewers, ACs or SACs to obtain favorable reviews. </li>
-                <li><b>Publication of accepted submissions</b>:  Reviews, meta-reviews, and any discussion with the authors will be made public for accepted papers (but reviewer, area chair, and senior area chair identities will remain anonymous). Camera-ready papers will be due in advance of the conference. All camera-ready papers must include a funding disclosure. We strongly encourage accompanying code and data to be submitted with accepted papers when appropriate, as per the code submission policy. Authors will be allowed to make minor changes for a short period of time after the conference.</li>
-                <li>Posting papers on preprint servers like ArXiv is permitted.</li>
-                <li>All submissions must represent original work and not previously published elsewhere.</li>
-                <li>Submissions are only accepted in written English.</li>
-                <li>All papers must be proofread by the authors before submission.</li>
-                <li>This workshop is non-archival; even though all accepted papers will be available on OpenReview, there are no formally-published proceedings.</li>
-            </ul>
+                    <li><strong>Abstract registration:</strong> January 25, 2027</li>
+                    <li><strong>Final paper submission:</strong> February 1, 2027</li>
+                    <li><strong>Author notification:</strong> February 26, 2027</li>
+                    <li><strong>Accepted papers public on OpenReview:</strong> February 26, 2027</li>
+                    <li><strong>Workshop:</strong> April 29 or 30, 2027; assigned day and room to be confirmed</li>
+                </ul>
+            </section>
 
-            <h3>Contact</h3>
-            <p>If you have any questions about paper submission and the workshop, please send email to: <a style="color:blue" href="mailto:foundationmodelscience@gmail.com">foundationmodelscience@gmail.com</a>.</p>
+            <section id="tracks">
+                <h2>Submission Tracks</h2>
+                <ul>
+                    <li><strong>Regular papers:</strong> up to 8 pages, excluding references and appendices.</li>
+                    <li><strong>Short papers:</strong> up to 4 pages, excluding references and appendices. We welcome preliminary ideas, focused experiments, replications, negative results, and critiques of existing evaluations.</li>
+                </ul>
+                <p>Tools and demonstrations may use either track. Both tracks receive substantive review and are eligible for contributed talks and posters. Submissions should use the ICLR paper format.</p>
+                <p>We prioritize ongoing or new work. Previously published results alone are insufficient without a clearly identified new contribution.</p>
+            </section>
+
+            <section id="evidence">
+                <h2>Scientific Evidence and Reproducibility</h2>
+                <p>Submissions should identify the scientific question, the agent's action space, the role of each foundation model, and the source of feedback. Empirical papers should distinguish measured results from hypotheses, specify baselines and resource budgets, and identify human interventions.</p>
+                <p>We encourage code, execution traces, environment descriptions, and data where sharing is possible. Prospective laboratory experiments are valuable but not required: careful simulation, theoretical results, and reproducible analyses are welcome when claims match their evidence.</p>
+            </section>
+
+            <section id="review">
+                <h2>Review Process</h2>
+                <p>We plan double-blind review with three reviews per paper and representation of both domain and machine learning expertise. Please anonymize the manuscript and supplementary materials. Selection will emphasize scientific substance, discussion value, and breadth rather than a fixed acceptance quota.</p>
+                <p>Authors and reviewers will declare institutional, collaboration, and advisor conflicts. Non-conflicted organizers will oversee decisions. Organizer-authored submissions, if any, will be handled by an independent external editor and reviewers.</p>
+            </section>
+
+            <section id="ai-policy">
+                <h2>AI Participation Policy</h2>
+                <p>Human authors remain responsible for every submission, scientific claim, and artifact. Papers studying scientific agents are welcome; AI will not serve as a primary author or reviewer. AI assistance must be disclosed when it materially affects the research or manuscript.</p>
+                <p><strong>Short papers must be primarily human-authored; AI-generated short papers are ineligible.</strong> Reviews and decisions will be made by humans. Confidential submissions must not be uploaded to unauthorized external services.</p>
+            </section>
+
+            <section id="publication">
+                <h2>Publication and Presentation</h2>
+                <p>This workshop is <strong>non-archival</strong>. Accepted papers will be publicly available on OpenReview and linked from the workshop website. We plan a poster opportunity for every accepted contribution and six contributed talks.</p>
+                <p>The workshop is planned as an in-person event. Authors facing exceptional travel barriers may provide a prerecorded presentation and nominate an in-person poster presenter. We aim to make workshop materials accessible online, subject to contributor permissions.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Questions about scope, submissions, or participation: <a href="mailto:foundationmodelscience@gmail.com">foundationmodelscience@gmail.com</a>.</p>
+                <p><a href="index.html">Back to the workshop homepage</a></p>
+            </section>
         </section>
     </div>
 

@@ -313,23 +313,3 @@ header.hero > .hero-inner {
 .sponsor-list li.best { list-style-type: "🏆 "; }
 .sponsor-list li.runner { list-style-type: "💻 "; }
 .sponsor-list li.support { list-style-type: "🎉 "; }
-
-/* Initials stand in for organizer portraits that are not yet available. */
-.profile-initials {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f3e8f5;
-    color: #782483;
-    font-size: 38px;
-    font-weight: 600;
-}
-.table th:first-child { min-width: 145px; }
-@media (max-width: 767px) {
-    .profile-initials { margin: 0 0 10px; }
-}
