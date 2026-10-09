@@ -16,65 +16,67 @@
         <section id="call_for_papers">
             <h1 class="h2">Call for Papers: Scientific Agents</h1>
             <p><strong>The 3rd Workshop on Foundation Models for Science</strong>, proposed for ICLR 2027 in San Francisco, California.</p>
-            <p>This preliminary call describes the planned scope and submission process. Workshop arrangements and dates remain subject to confirmation. The submission portal and ICLR-format template link will be announced here.</p>
-            <p>We invite methodological, theoretical, systems, and application papers on agents that formulate hypotheses, choose experiments, use scientific tools, and learn from evidence. Scientific domains include biology, chemistry, materials, physics, Earth science, and computational mathematics. Human-guided systems and studies of the limits of autonomy are welcome.</p>
+            <p>This call describes the scope and submission process for our proposed workshop. The submission portal and ICLR-format template link will be published here upon workshop acceptance.</p>
+            <p>We invite methodological, theoretical, systems, and application papers on agents that formulate hypotheses, choose experiments, use scientific tools, and learn from evidence. We welcome work across scientific computing, physical and life sciences, and computational mathematics, including simulation, numerical methods, data analysis, and reproducible computational investigations. Human-guided systems and studies of the limits of autonomy are welcome.</p>
 
             <section id="topics">
                 <h2>Topics of Interest</h2>
                 <ol>
-                    <li class="mb-3"><strong>Scientific tool use and composition of foundation models.</strong> Connect language and multimodal models with protein models, molecular generators, neural operators, PDE solvers, symbolic tools, and scientific databases. Study action representations, tool selection, interface validation, and uncertainty propagation.</li>
+                    <li class="mb-3"><strong>Scientific tool use and composition of foundation models.</strong> Connect language and multimodal models with domain-specific predictors, neural operators, numerical solvers, symbolic tools, and scientific databases. Study action representations, tool selection, interface validation, and uncertainty propagation.</li>
                     <li class="mb-3"><strong>Experimental design and learning from feedback.</strong> Choose measurements, simulations, and interventions under limited budgets through active learning, Bayesian optimization, causal experimental design, reinforcement learning, multi-fidelity simulation, and adaptive stopping.</li>
                     <li class="mb-3"><strong>Multi-agent collaboration and human scientific judgment.</strong> Understand when specialist roles, debate, and independent criticism improve scientific reasoning. Address correlated errors, evidence-grounded disagreement, human oversight, and comparisons with equally resourced single-agent systems.</li>
                     <li class="mb-3"><strong>Long-running investigations, memory, and research workflows.</strong> Maintain coherent records of hypotheses, datasets, code, results, and rejected explanations. Develop persistent scientific memory, provenance, experiment search, reproducible workflows, and recovery from failed tools.</li>
                     <li class="mb-3"><strong>Discovery through executable evaluation.</strong> Discover algorithms, numerical methods, mathematical constructions, and scientific software through program search and executable feedback. Study evaluator design, inference-time compute allocation, hidden-test generalization, and specification errors.</li>
-                    <li class="mb-3"><strong>Reliable evaluation and responsible scientific autonomy.</strong> Distinguish workflow completion, replication, hypothesis quality, and independently validated discovery. Explore contamination-aware benchmarks, uncertainty calibration, negative results, robustness, and permissioned laboratory execution.</li>
+                    <li class="mb-3"><strong>Reliable evaluation and responsible scientific autonomy.</strong> Distinguish workflow completion, replication, hypothesis quality, and independently validated discovery. Explore contamination-aware benchmarks, uncertainty calibration, negative results, robustness, auditable tool execution, and human oversight.</li>
                 </ol>
             </section>
 
             <section id="dates">
-                <h2>Tentative Important Dates</h2>
-                <p>All deadlines are at 23:59 Anywhere on Earth (AoE). The dates below are tentative.</p>
+                <h2>Important Dates</h2>
+                <p>All deadlines are at 23:59 Anywhere on Earth (AoE) and apply to both tracks.</p>
                 <ul>
                     <li><strong>Abstract registration:</strong> January 25, 2027</li>
                     <li><strong>Final paper submission:</strong> February 1, 2027</li>
+                    <li><strong>Internal decisions:</strong> February 23, 2027 (not author notification)</li>
                     <li><strong>Author notification:</strong> February 26, 2027</li>
-                    <li><strong>Accepted papers public on OpenReview:</strong> February 26, 2027</li>
-                    <li><strong>Workshop:</strong> April 29 or 30, 2027; assigned day and room to be confirmed</li>
+                    <li><strong>Accepted papers public on OpenReview and imported to iclr.cc:</strong> February 26, 2027</li>
+                    <li><strong>Workshop:</strong> April 29 or 30, 2027, as assigned by ICLR</li>
                 </ul>
             </section>
 
             <section id="tracks">
                 <h2>Submission Tracks</h2>
                 <ul>
-                    <li><strong>Regular papers:</strong> up to 8 pages, excluding references and appendices.</li>
-                    <li><strong>Short papers:</strong> up to 4 pages, excluding references and appendices. We welcome preliminary ideas, focused experiments, replications, negative results, and critiques of existing evaluations.</li>
+                    <li><strong>Regular papers:</strong> 4-9 pages, excluding references and appendices.</li>
+                    <li><strong>Short papers:</strong> 2-4 pages, excluding references and appendices. We welcome late-breaking findings, early-stage ideas, focused experiments, replications, negative results, and critiques of existing evaluations. This track lowers the submission barrier for budding researchers and under-represented communities; a complete full-length study is not required.</li>
                 </ul>
-                <p>Tools and demonstrations may use either track. Both tracks receive substantive review and are eligible for contributed talks and posters. Submissions should use the ICLR paper format.</p>
+                <p>Tools and demonstrations may use either track. Both tracks share deadlines, receive three human reviews per paper, and are eligible for contributed talks and posters. Authors of four-page papers choose the track matching their scope. Reviews assess the validity and value of the stated contribution without requiring short papers to be full studies. Submissions should use the ICLR paper format.</p>
                 <p>We prioritize ongoing or new work. Previously published results alone are insufficient without a clearly identified new contribution.</p>
             </section>
 
             <section id="evidence">
                 <h2>Scientific Evidence and Reproducibility</h2>
                 <p>Submissions should identify the scientific question, the agent's action space, the role of each foundation model, and the source of feedback. Empirical papers should distinguish measured results from hypotheses, specify baselines and resource budgets, and identify human interventions.</p>
-                <p>We encourage code, execution traces, environment descriptions, and data where sharing is possible. Prospective laboratory experiments are valuable but not required: careful simulation, theoretical results, and reproducible analyses are welcome when claims match their evidence.</p>
+                <p>We encourage code, execution traces, environment descriptions, and data where sharing is possible. Careful simulation, theoretical results, and reproducible analyses are welcome when claims match their evidence. Report validated results relative to compute, data, and human effort against explicit baselines.</p>
             </section>
 
             <section id="review">
                 <h2>Review Process</h2>
-                <p>We plan double-blind review with three reviews per paper and representation of both domain and machine learning expertise. Please anonymize the manuscript and supplementary materials. Selection will emphasize scientific substance, discussion value, and breadth rather than a fixed acceptance quota.</p>
-                <p>Authors and reviewers will declare institutional, collaboration, and advisor conflicts. Non-conflicted organizers will oversee decisions. Organizer-authored submissions, if any, will be handled by an independent external editor and reviewers.</p>
+                <p>We use double-blind review with three reviews per paper and representation of both domain and machine learning expertise. Please anonymize the manuscript and supplementary materials. Selection will emphasize scientific substance, discussion value, and breadth rather than a fixed acceptance quota.</p>
+                <p>Authors and reviewers will declare institutional, collaboration, and advisor conflicts. Non-conflicted organizers will oversee decisions. Organizer-authored submissions, if any, will be handled by an independent external editor and reviewers and are ineligible for oral slots or awards.</p>
+                <p>The required external reviewer nomination for the workshop-proposal review committee has been submitted through OpenReview. This is separate from the committee reviewing contributed papers.</p>
             </section>
 
             <section id="ai-policy">
                 <h2>AI Participation Policy</h2>
                 <p>Human authors remain responsible for every submission, scientific claim, and artifact. Papers studying scientific agents are welcome; AI will not serve as a primary author or reviewer. AI assistance must be disclosed when it materially affects the research or manuscript.</p>
-                <p><strong>Short papers must be primarily human-authored; AI-generated short papers are ineligible.</strong> Reviews and decisions will be made by humans. Confidential submissions must not be uploaded to unauthorized external services.</p>
+                <p><strong>Submissions in both tracks must be primarily human-authored; AI-generated papers are ineligible.</strong> Reviews and decisions will be made by humans. Confidential submissions must not be uploaded to unauthorized external services.</p>
             </section>
 
             <section id="publication">
                 <h2>Publication and Presentation</h2>
-                <p>This workshop is <strong>non-archival</strong>. Accepted papers will be publicly available on OpenReview and linked from the workshop website. We plan a poster opportunity for every accepted contribution and six contributed talks.</p>
-                <p>The workshop is planned as an in-person event. Authors facing exceptional travel barriers may provide a prerecorded presentation and nominate an in-person poster presenter. We aim to make workshop materials accessible online, subject to contributor permissions.</p>
+                <p>This workshop is <strong>non-archival</strong>. Accepted papers will be publicly available on OpenReview and linked from the workshop website. Every accepted contribution receives a poster opportunity, and six papers will be selected for contributed talks.</p>
+                <p>The workshop is an in-person event. Authors facing exceptional travel barriers may provide a prerecorded presentation and nominate an in-person poster presenter. We aim to make workshop materials accessible online, subject to contributor permissions.</p>
             </section>
 
             <section id="contact">
